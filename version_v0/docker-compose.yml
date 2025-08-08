@@ -6,4 +6,4 @@ services:
     container_name: weathercron
     restart: always
     volumes:
-      - D:/250520/cron/src:/app
+      - E:/최남회/파이썬개발에대한파일모음/weather_cron-main/version_v0/src:/app

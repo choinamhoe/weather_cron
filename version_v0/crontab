@@ -22,5 +22,6 @@
 #
 # m h  dom mon dow   command
 * * * * * /usr/local/bin/python /app/cron_test.py >> /app/log.txt
+*/2 * * * * /usr/local/bin/python /app/cron_test_2minute.py >> /app/log_2minute.txt
 #10,40 * * * * /usr/local/bin/python /app/volume/main.py >> /var/log/cron/cron_log.log 2>&1
 
