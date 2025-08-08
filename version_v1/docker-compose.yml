@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  myservice:
+    image: weather_cron:latest
+    container_name: weathercron
+    restart: always
+    volumes:
+      - D:/250520/cron/version_v1/src:/app
+    network_mode: host

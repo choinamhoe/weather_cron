@@ -1,0 +1,9 @@
+version: "3"
+
+services:
+  myservice:
+    image: cron_test:latest
+    container_name: weathercron
+    restart: always
+    volumes:
+      - D:/250520/cron/src:/app
